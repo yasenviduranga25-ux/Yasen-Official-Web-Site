@@ -2,25 +2,39 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel = "stylesheet" href = "CSS/styles.css">
         <title>M.B.Y. Viduranga</title>
     </head>
     <body>
-        <header>
-            <h1>M.B.Y. Viduranga</h1>
-            <h6>Undergraduated from MIED in UOP</h6>
-            <a href="tel:0770847397">Call</a>
-            <a href="mailto:yasenviduranga25@gmail.com">Email</a>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About me</a></li>
-                <li><a href="#Projects">My Projects</a></li>
-                <li><a href="#Contacts">Contact me</a></li>
-            </ul>
-        </nav>    
+        <div class = "fixed-plane">
+            <!-- Header -->
+            <header>
+                <h1>M.B.Y. Viduranga</h1>
+                <h6>Undergraduated from MIED in UOP</h6>
+                <hr>
+                <a href="mailto:yasenviduranga25@gmail.com">Email</a>
+                <a href="http://">Linkdin</a>
+                <a href="http://">GitHub</a>
+            </header>
+
+            <!-- Navigation Links -->
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About me</a></li>
+                    <li><a href="#Projects">My Projects</a></li>
+                    <li><a href="#Contacts">Contact me</a></li>
+                </ul>
+            </nav>  
+        </div>
+
+        <!-- Main part in website -->
         <main>
+
+            <!-- Home -->
             <section id = "Home"></section>
+
+            <!-- About me -->
             <section id = "About">
                 <h2>About me</h2>
                 <p>I am an undergraduate student pursuing a degree in Manufacturing and Industrial Engineering at the University of Peradeniya. I am passionate about engineering, technology, innovation, and continuous learning, with a particular interest in developing practical solutions that connect engineering principles with modern technology.</p>
@@ -29,13 +43,21 @@
                 <p>I believe in continuous self-development and enjoy exploring new areas of engineering and technology. My goal is to build strong technical expertise, gain practical experience through projects, and develop into a professional capable of contributing to innovative and technology-driven engineering solutions.</p>
                 <img src = "Yasen_Viduranga.jpg" alt = "Yasen">
             </section>
+
+            <!-- Projects -->
             <section id = "Projects">
                 <h2>My Projects</h2>
-                <article>Individual Projects</article>
-                <article>Group Projects</article>
+                <article class = "projects"><a href = "#" class = "individual-projects">Individual Projects</a></article>
+                <article class = "projects"><a href = "#" class = "group-projects">Group Projects</a></article>
             </section>
+
+            <!-- Contacts -->
             <section id = "Contacts">
-                <h2>Contact me</h2>
+                <h2>Contact me</h2>                
+                <a href="tel:0770847397">Call</a>
+                <a href="http://">Facebook</a>
+                <a href="http://">Instragram</a>
+                <a href="http://">Whatsapp</a>
             </section>
         </main>    
     </body>
