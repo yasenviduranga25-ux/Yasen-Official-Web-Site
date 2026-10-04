@@ -64,6 +64,10 @@ img {
     padding: 10px;
     border: 2px solid black;
     border-radius: 5px;
-    width: 70px;
-    height: 70px;
+    width: 200px;
+    height: 20px;
+}
+
+nav {
+    margin: 0;
 }
