@@ -9,11 +9,12 @@ The website is currently **under development**. At this stage, I have implemente
 ## Current Technologies
 
 * HTML5
+* CSS
 
 ## Planned Technologies
 
 * HTML5
-* CSS3
+* CSS
 * JavaScript
 
 ## Planned Features
