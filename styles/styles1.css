@@ -14,6 +14,27 @@ body {
     z-index: 1;
 }
 
+.official-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: 110px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.official-links img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+}
+
 .main-container {
     top: 200px;
     position: relative;
